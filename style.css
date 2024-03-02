@@ -1,0 +1,69 @@
+img {
+  width: 500px; 
+}
+body {
+  background-color: rgb(251, 247, 188);
+}
+.btn {
+  color: white;
+  border: none;
+  font-size: 18px;
+  /* padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px; */
+  /* padding: 10px 20px; /*top&bottom left&right*/
+  /* padding: 10px 20px 10px; /*top left&right bottom*/
+  /* padding: 10px 20px 10px 20px; /*top left bottom right*/
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.button1 {
+  background-color: rgb(6, 204, 6);
+}
+.button2 {
+  background-color: rgb(250, 67, 67);
+}
+
+hr {
+  height: 2px;
+  background-color: blue;
+  border: none;
+}
+
+button {
+  border-radius: 20px;
+  border: none;
+  /* padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px; */
+  padding: 10px 30px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.en_btn {
+  background-color: blueviolet;
+  color: white;
+  transition: 1s;
+}
+.dis_btn {
+  background-color: rgb(198, 196, 196);
+  color: rgb(70, 70, 70);
+}
+.en_btn:hover {
+  cursor: pointer;
+  background-color: rgb(205, 161, 246);
+  color: black;
+}
+
+.ok_btn {
+  background-color: white;
+  border-width: 2px;
+  border-color: blue;
+  border-style: dotted;
+  transition: 1s;
+}
+.ok_btn:hover {
+
+}
