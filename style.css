@@ -4,6 +4,11 @@ img {
 body {
   background-color: rgb(251, 247, 188);
 }
+
+.body_image {
+  background-image: url('images/tokyo-tower.jpeg');
+}
+
 .btn {
   color: white;
   border: none;
@@ -66,4 +71,36 @@ button {
 }
 .ok_btn:hover {
 
+}
+
+.pg {
+  margin: 50px;
+  padding: 30px;
+}
+
+.p1 {
+  background-color: aquamarine;
+}
+
+.p2 {
+  background-color: burlywood;
+}
+
+.p3 {
+  background-color: cadetblue;
+}
+
+.image {
+  width: 120px;
+  height: 120px;
+}
+
+.image1 {
+  float: left;
+  margin-right: 20px;
+}
+
+.image2 {
+  float: right;
+  margin-left: 20px;
 }

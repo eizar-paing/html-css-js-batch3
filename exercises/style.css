@@ -1,0 +1,17 @@
+body{
+  background-color: rgb(203, 253, 236);
+}
+
+img{
+  width: 300px;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background-color: black;
+}
+
+.section {
+  color: rebeccapurple;
+}
