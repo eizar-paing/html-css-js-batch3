@@ -113,10 +113,47 @@ button {
 }
 
 .unordered_list {
-  /* list-style-type: square; */
-  list-style-image: url(images/heart.png);
+  list-style-type: none;
+  /* list-style-image: url(images/heart.png); */
+  background-color: black;
+  overflow: hidden;
+}
+
+.unordered_list li {
+  float: left; 
+}
+
+.unordered_list li a {
+  display: block; 
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.unordered_list li a:hover {
+  color: black;
+  background-color: bisque;
 }
 
 .ordered_list {
   list-style-type: lower-roman;
+}
+
+
+
+table, th, td{
+  /* border-width: 2px;
+  border-color: black;
+  border-style: solid; */
+  /* border: 2px solid black; */
+  border-collapse: collapse;
+}
+
+table {
+  margin: 50px;
+}
+
+th, td {
+  padding: 10px;
+  background-color: lightblue;
 }
