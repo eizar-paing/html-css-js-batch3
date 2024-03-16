@@ -120,7 +120,7 @@ button {
 }
 
 .unordered_list li {
-  float: left; 
+  float: inline-start; 
 }
 
 .unordered_list li a {
@@ -137,23 +137,4 @@ button {
 
 .ordered_list {
   list-style-type: lower-roman;
-}
-
-
-
-table, th, td{
-  /* border-width: 2px;
-  border-color: black;
-  border-style: solid; */
-  /* border: 2px solid black; */
-  border-collapse: collapse;
-}
-
-table {
-  margin: 50px;
-}
-
-th, td {
-  padding: 10px;
-  background-color: lightblue;
 }
