@@ -6,3 +6,8 @@
 .blue-text {
   color: rgb(24, 127, 246);
 }
+
+table, th, td {
+  border: 2px solid gray;
+  border-collapse: collapse;
+}
