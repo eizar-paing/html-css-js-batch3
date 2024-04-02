@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>center div</title>
+    <style>
+      .container {
+        border: 1px solid rgb(165, 165, 165);
+        border-radius: 5px;
+        width: 300px;
+        padding: 20px;
+      }
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin: 5px 0;
+      }
+      .number {
+        background-color: rgb(45, 45, 250);
+        color: white;
+        font-size: 14px;
+        padding: 5px 10px;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex-container">
+        <div>Home</div>
+        <div class="number">14</div>
+      </div>
+      <div class="flex-container">
+        <div>Notifications</div>
+        <div class="number">3</div>
+      </div>
+      <div class="flex-container">
+        <div>Messages</div>
+        <div class="number">5</div>
+      </div>
+    </div>
+  </body>
+</html>
