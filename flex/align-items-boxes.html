@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>center div</title>
+    <style>
+      .flex-container1 {
+        display: flex;
+        background-color: beige;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 300px;
+      }
+      .flex-container2 {
+        display: flex;
+        background-color: wheat;
+        justify-content: space-between;
+        align-items: flex-end;
+        height: 300px;
+      }
+      .flex-container3 {
+        display: flex;
+        background-color: beige;
+        justify-content: space-between;
+        align-items: center;
+        height: 300px;
+      }
+      .flex-container4 {
+        display: flex;
+        background-color: wheat;
+        justify-content: space-between;
+        align-items: stretch;
+        height: 300px;
+      }
+      .flex-container5 {
+        display: flex;
+        background-color: beige;
+        justify-content: space-between;
+        align-items: baseline;
+        height: 300px;
+      }
+      
+      .child1 {
+        width: 100px;
+        min-height: 100px;
+        background-color: chartreuse;
+      }
+      .child2 {
+        width: 100px;
+        min-height: 120px;
+        background-color: chocolate;
+      }
+      .child3 {
+        width: 100px;
+        min-height: 150px;
+        background-color: mediumslateblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Flex Start</h2>
+    <div class="flex-container1">
+      <div class="child1"></div>
+      <div class="child2"></div>
+      <div class="child3"></div>
+    </div>
+
+    <h2>Flex End</h2>
+    <div class="flex-container2">
+      <div class="child1"></div>
+      <div class="child2"></div>
+      <div class="child3"></div>
+    </div>
+
+    <h2>Center</h2>
+    <div class="flex-container3">
+      <div class="child1"></div>
+      <div class="child2"></div>
+      <div class="child3"></div>
+    </div>
+
+    <h2>Stretch</h2>
+    <div  class="flex-container4">
+      <div class="child1"></div>
+      <div class="child2"></div>
+      <div class="child3"></div>
+    </div>
+
+    <h2>Baseline</h2>
+    <div  class="flex-container5">
+      <div class="child1"></div>
+      <div class="child2"></div>
+      <div class="child3"></div>
+    </div>
+  </body>
+</html>
