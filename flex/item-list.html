@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>center div</title>
+    <style>
+      body {
+        color: gray;
+      }
+      .container {
+        margin: 50px 100px;
+      }
+      .parent-flexbox {
+        display: flex;
+        margin-bottom: 20px;
+      }
+      .photo {
+        width: 200px;
+        height: 150px;
+        margin-right: 20px;
+        border-radius: 5px;
+      }
+      .group {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+      }
+      .child2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex: 1;
+      }
+      .category {
+        font-size: 20px;
+      }
+      .number {
+        font-size: 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="parent-flexbox">
+        <img class="photo" src="../images/tokyo-tower.jpeg">
+        <div class="group">
+          <div class="child2">
+            <div>
+              <span class="category">Business</span> <br>
+              06 December 2017
+            </div>
+            <div>
+              <span class="number">3500</span> Taka
+            </div>
+          </div>
+          <hr>
+        </div>
+      </div>
+      
+      <div class="parent-flexbox">
+        <img class="photo" src="../images/tokyo-tower.jpeg">
+        <div class="child2">
+          <div>
+            <span class="category">Business</span> <br>
+            06 December 2017
+          </div>
+          <div>
+            <span class="number">3500</span> Taka
+          </div>
+        </div>
+      </div>
+      <div class="parent-flexbox">
+        <img class="photo" src="../images/tokyo-tower.jpeg">
+        <div class="child2">
+          <div>
+            <span class="category">Business</span> <br>
+            06 December 2017
+          </div>
+          <div>
+            <span class="number">3500</span> Taka
+          </div>
+        </div>
+      </div>
+      <div class="parent-flexbox">
+        <img class="photo" src="../images/tokyo-tower.jpeg">
+        <div class="child2">
+          <div>
+            <span class="category">Business</span> <br>
+            06 December 2017
+          </div>
+          <div>
+            <span class="number">3500</span> Taka
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
