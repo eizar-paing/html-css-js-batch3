@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>center div</title>
+    <style>
+      .parent-flexbox {
+        display: flex;
+        flex-direction: column;
+        max-width: 800px;
+        margin: 50px auto;
+      }
+      .title-box {
+        text-align: center;
+      }
+      .title-box p {
+        padding: 0 50px;
+      }
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent-flexbox">
+      <div class="title-box">
+        <h1>Join our team</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+      <div class="flex-container">
+        <div>
+          <h3>Full stack developer</h3>
+          <p>Full time | Toledo, USA</p>
+        </div>
+        <div>
+          <button class="btn-apply">Apply Now</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
