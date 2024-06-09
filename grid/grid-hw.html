@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid HomePage</title>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: 3fr 2fr 2fr;
+        grid-template-rows: 100px 250px 200px 200px 150px 100px;
+        gap: 10px;
+      }
+      .grid-container div {
+        background-color: rgb(91, 153, 246);
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 26px;
+      }
+      .full-cols {
+        grid-column-start: 1;
+        grid-column-end: 4;
+      }
+      .main {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+      }
+      .sidebar {
+        grid-row-start: 3;
+        grid-row-end: 5;
+      }
+      .extra {
+        grid-column-start: 2;
+        grid-column-end: 4;
+      }
+      .images {
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="full-cols">Header</div>
+      <div>Hero</div>
+      <div class="main">Main Content</div>
+      <div class="sidebar">Sidebar</div>
+      <div class="extra">Extra Content</div>
+      <div class="images">Related Images</div>
+      <div>Related Posts</div>
+      <div class="full-cols">Footer</div>
+    </div>
+  </body>
+</html>

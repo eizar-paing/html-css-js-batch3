@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>gallery</title>
+    <style>
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+      .flex-child {
+        flex: 25%;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      @media (max-width: 800px) {
+        .flex-child {
+          flex: 50%;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .flex-child {
+          flex: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-child">
+        <img src="../images/dog_img.jpeg">
+        <img src="../images/dog_img.jpeg">
+        <img src="../images/dog_img.jpeg">
+      </div>
+      <div class="flex-child">
+        <img src="../images/dog_img.jpeg">
+        <img src="../images/dog_img.jpeg">
+        <img src="../images/dog_img.jpeg">
+      </div>
+      <div class="flex-child">
+        <img src="../images/dog_img.jpeg">
+        <img src="../images/dog_img.jpeg">
+        <img src="../images/dog_img.jpeg">
+      </div>
+      <div class="flex-child">
+        <img src="../images/dog_img.jpeg">
+        <img src="../images/dog_img.jpeg">
+        <img src="../images/dog_img.jpeg">
+      </div>
+    </div>
+  </body>
+</html>
