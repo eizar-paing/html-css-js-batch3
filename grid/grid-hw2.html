@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid HomePage</title>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: 100px 500px 200px 200px 200px;
+        text-align: center;
+        line-height: 50px;
+        color: white;
+      }
+      .header {
+        background-color: brown;
+      }
+      .menu {
+        background-color: aqua;
+        grid-column-start: 2;
+        grid-column-end: 5;
+      }
+      .hero {
+        background-color: chocolate;
+        grid-column-start: 1;
+        grid-column-end: 5;
+      }
+      .main {
+        background-color:forestgreen;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+      .blank {
+        grid-row-start: 3;
+        grid-row-end: 5;
+      }
+      .image {
+        background-color: indianred;
+      }
+      .extra {
+        background-color: darkorange;
+      }
+      .banner {
+        background-color: mediumslateblue;
+        grid-column-start: 1;
+        grid-column-end: 5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="header">HEADER</div>
+      <div class="menu">MENU</div>
+      <div class="hero">HERO</div>
+      <div class="main">MAIN</div>
+      <div class="blank"></div>
+      <div class="image">IMAGE</div>
+      <div class="extra">EXTRA</div>
+      <div class="banner">BANNER</div>
+    </div>
+  </body>
+</html>
